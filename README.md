@@ -1,5 +1,5 @@
 # 🧠 Brain Tumor MRI Analysis System  
-> 🚀 **Finalist at Neural Nexus AI Challenge 2024**  
+> 🚀 **Finalist at Neural Nexus AI Challenge 2025**  
 
 --- 
 
