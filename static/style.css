@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('brain.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #f0f0f0;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(20, 20, 20, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    width: 92%;
+    max-width: 850px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    animation: fadeIn 1s ease;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Navigation */
+.navigation {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.nav-link {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 8px;
+    transition: all 0.35s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(76, 175, 80, 0.3);
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Pages */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Images */
+.background-image, .uploaded-image {
+    max-width: 100%;
+    height: 270px;
+    object-fit: contain;
+    margin: 25px auto;
+    border-radius: 12px;
+    border: 3px solid #4CAF50;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 12px 0;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px) scale(1.05);
+}
+
+/* File Input */
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #eee;
+}
+
+/* Category boxes in a row with shaded backgrounds */
+.category-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.category-item {
+    background: linear-gradient(145deg, rgba(76, 175, 80, 0.2), rgba(255, 255, 255, 0.05));
+    padding: 14px 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e0e0e0;
+    border: 2px solid rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    background: rgba(76, 175, 80, 0.4);
+    color: #fff;
+    transform: scale(1.05);
+    border-color: #4CAF50;
+}
+
+/* Results */
+#result {
+    margin-top: 25px;
+}
+
+#prediction-result, #confidence-result {
+    font-size: 20px;
+    margin: 12px 0;
+    color: #e0e0e0;
+}
+
+/* Details Section */
+#details-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#details-section h3, #details-section h4 {
+    color: #4CAF50;
+    margin-bottom: 12px;
+}
+
+#details-section ul {
+    padding-left: 25px;
+    margin: 12px 0;
+}
+
+#details-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
