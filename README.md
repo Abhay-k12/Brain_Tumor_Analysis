@@ -16,7 +16,7 @@
 
 ## 📌 Overview  
 
-Welcome to the **Brain Tumor MRI Analysis System** — a deep learning-powered web application that detects brain tumors from MRI scans and classifies them into **four categories**:
+**Brain Tumor MRI Analysis System** is a deep learning-powered web application that detects brain tumors from MRI scans and classifies them into **four categories**:
 
 - 🩺 **Glioma Tumor**
 - 🧠 **Meningioma Tumor**
